@@ -1,0 +1,255 @@
+/*index.html styling*/
+html {
+  scroll-behavior: smooth;
+ }
+
+body {
+	font-family: Tahoma;
+}
+
+body .sub-heading {
+	display: flex;
+}
+
+
+body .header-container {
+	background-color: #F89572;
+}
+
+body .header-container-left {
+	padding-left: 30px;
+}
+
+body .header-container-left .header-container-images img {
+	margin: 5px;
+}
+
+body .header-container-left .header-title {
+	font-size: 30px;
+	font-family: Trebuchet MS;
+	margin-top: 20px;
+	margin-right: 10px;
+}
+
+body .header-container .header-container-left .shop-now-outer {
+	width: 120px;
+	margin-bottom: 20px;
+}
+
+body .header-container .header-container-left .shop-now-outer a {
+	text-decoration: none;
+}
+
+body .header-container .header-container-left .shop-now-inner {
+	border-style: solid;
+	border-radius: 20px;
+	padding-left: 12px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+}
+
+body .header-container .header-container-left .shop-now-inner:hover {
+	color: red;
+	border-color: red;
+}
+
+body .header-container-images {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 30px;
+}
+
+/*most popular heading section*/
+body .most-popular-container {
+	text-align: center;
+	
+}
+
+body .most-popular-container .most-popular-heading {
+	margin-top: 80px;
+	font-size: 20px;
+	font-family: Trebuchet MS;
+	text-align: center;
+}
+
+body .most-popular-container .products-list {
+	display: flex;
+	margin-top:50px;
+	margin-bottom: 50px;
+	margin-bottom: 50px;
+	flex-wrap: wrap;
+	
+}
+
+body .most-popular-container .products-list .jack-daniels-popular {
+	border-style: solid;
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-top: 25px;
+}
+body .most-popular-container .products-list .jagermeister-popular {
+	border-style: solid;
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-top: 25px;
+}
+body .most-popular-container .products-list .bombay-popular {
+	border-style: solid;
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-top: 25px;
+}
+body .most-popular-container .products-list .kraken-popular {
+	border-style: solid;
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-top: 25px;
+}
+body .most-popular-container .products-list .jack-daniels-popular:hover {
+	transform: scale(1.1);
+	background-color: #f5f2ef;
+}
+body .most-popular-container .products-list .jagermeister-popular:hover {
+	transform: scale(1.1);
+	background-color: #f5f2ef;
+}
+body .most-popular-container .products-list .bombay-popular:hover {
+	transform: scale(1.1);
+	background-color: #f5f2ef;
+}
+body .most-popular-container .products-list .kraken-popular:hover {
+	transform: scale(1.1);
+	background-color: #f5f2ef;
+}
+
+/*Categories section*/
+
+body .category-container {
+	background-color: #F89572;
+	padding-top: 20px;
+	padding-bottom: 80px;
+}
+
+body .category-container .category-header {
+	margin-top: 80px;
+	font-size: 20px;
+	font-family: Trebuchet MS;
+	text-align: center;
+	
+}
+
+body .category-container .categories {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+body .category-container .categories .whiskey-container {
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-top: 25px;
+}
+body .category-container .categories .gin-container {
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-top: 25px;
+}
+body .category-container .categories .liqueurs-container {
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-top: 25px;
+}
+body .category-container .categories .rum-container {
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-top: 25px;
+}
+body .category-container .categories .tequila-container {
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-top: 25px;
+}
+body .category-container .categories .vodka-container {
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-top: 25px;
+}
+body .category-container .categories .white-wine-container {
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-top: 25px;
+}
+body .category-container .categories .red-wine-container {
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-top: 25px;
+}
+
+body .category-container .categories .whiskey-container:hover {
+	transform: scale(1.1);
+}
+body .category-container .categories .gin-container:hover {
+	transform: scale(1.1);
+}
+body .category-container .categories .liqueurs-container:hover {
+	transform: scale(1.1);
+}
+body .category-container .categories .rum-container:hover {
+	transform: scale(1.1);
+}
+body .category-container .categories .tequila-container:hover {
+	transform: scale(1.1);
+}
+body .category-container .categories .vodka-container:hover {
+	transform: scale(1.1);
+}
+body .category-container .categories .white-wine-container:hover {
+	transform: scale(1.1);
+}
+body .category-container .categories .red-wine-container:hover {
+	transform: scale(1.1);
+}
+/*about me section*/
+body .about-me {
+	margin-top: 40px;
+	margin-bottom: 80px;
+	text-align: center;
+}
+
+body .about-me .about-me-header {
+	text-align: center;
+	margin-bottom: 80px;
+}
+
+body .about-me .video {
+	margin-bottom: 30px;
+}
+
+body .about-me .description p {
+	text-align: center;
+	border-style: solid;
+	margin-left: 400px;
+	margin-right: 400px;
+	padding: 20px;
+}
+
+/*footer*/
+footer {
+	padding-top: 40px;
+	padding-bottom: 20px;
+	text-align: center;
+	background-color: #f5f2ef;
+}
+
+@media only screen and (min-width: 1400px) {
+	body .header-container {
+		display: flex;
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+	body .about-me .description p {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+}

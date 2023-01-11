@@ -1,0 +1,43 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="{% static 'css/category.css' %}">
+		<meta charset="UTF-8">
+		<title>GoodTimes</title>
+		</head>
+	<body>
+		<header>
+			<div class="home-outer">
+				<a href="{% url '' %}">
+					<div class="home-inner">
+						home
+					</div>
+				</a>
+			</div>
+			<div class="page-title">
+				<h1>{{better_heading}}</h1>
+			</div>
+		</header>
+		{% if total_entries > 0 %}
+		
+		<table>
+			{% for table_name, type, image_name in item_selection %}
+			<tr>
+				<td align="center"><img src="{% static '/images/products/' %}{{image_name}}.jpeg" alt="{{image_name}}" width="250px" height="auto"/></td>
+				<div class="category-outer">
+					<td><a href="{{category}}/{{table_name}}" >
+						<div class="category-inner">
+							{{ type }}
+						</div>
+					</a></td>
+				</div>
+				<td><img src="{% static '/images/speakericon.png' %}" alt="speakericon" width="50px" height="auto"/></td>
+			</tr>
+			{% endfor %}
+		</table>
+		{% else %}
+		<h2>There are no entries here, return to home <a href="{% url '' %}">here</a></h2>
+		{% endif %}
+	</body>
+</html>

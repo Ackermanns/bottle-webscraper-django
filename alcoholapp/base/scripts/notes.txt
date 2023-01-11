@@ -1,0 +1,10 @@
+1xxx primary key: superliquor, incremental
+
+
+To add a new product entry:
+
+1. create new table entry in updater.py
+2. configure webscrapers in updater.py to get data
+3. manual put in a new row in temp/tables.txt
+4. add image product to static/products, image must be in .jpeg format
+5. run full update

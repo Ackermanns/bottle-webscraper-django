@@ -1,0 +1,53 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="{% static 'css/item.css' %}">
+		<meta charset="UTF-8">
+		<title>GoodTimes</title>
+	</head>
+	<body>
+		<header>
+			<div class="home-outer">
+				<a href="{% url '' %}">
+					<div class="home-inner">
+						home
+					</div>
+				</a>
+			</div>
+			<div class="page-title">
+				<h1>{{better_heading}}</h1>
+			</div>
+		</header>
+		{% if total_entries > 0 %}
+			<div class="table-margins">
+				<table>
+					<div class="table-head">
+						<tr>
+							<th>original price</th>
+							<th>current price ↓</th>
+							<th>store website</th>
+							<th>store address</th>
+						<tr>
+					</div>
+					{% for original_price, discounted_price, item_website, store_address, store_website in items %}
+					<tr>
+						<td style="width:250px;">{{original_price}}</td>
+						<td style="width:250px;">{{discounted_price}}</td>
+						<td style="width:300px;"><a href="{{item_website}}">here</a></td>
+						<td style="text-align:left; width:500px;"><a href="{{store_website}}">{{store_address}}</a></td>
+					</tr>
+					{% endfor %}
+				</table>
+				<script>
+					$("tr:not(:first-child)").each(function(index)){
+						$(this).css('animation-delay', index*3+'s');
+					});
+				</script>
+			</div>
+		{% else %}
+			<h2>There are no entries here, return back <a href="{% url '{{category}}' %}">here</a></h2>
+			<h2>or return to home <a href="{% url '' %}">here</a></h2>
+		{% endif %}
+	</body>
+</html>

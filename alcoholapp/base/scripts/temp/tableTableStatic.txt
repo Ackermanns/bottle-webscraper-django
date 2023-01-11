@@ -1,0 +1,15 @@
+CREATE TABLE IF NOT EXISTS items (table_name VARCHAR(50) PRIMARY KEY, type VARCHAR(50), real_name VARCHAR(50), image_name VARCHAR(50));
+INSERT INTO items VALUES("jagermeister", "Jagermeister", "Liqueurs", "jagermeister_image");
+INSERT INTO items VALUES("baileys_irish_cream", "Baileys The Original Irish Cream", "Liqueurs", "baileys_irish_cream_image");
+INSERT INTO items VALUES("captain_morgan_dark", "Captain Morgan Dark", "Rum", "captain_morgan_dark_image");
+INSERT INTO items VALUES("kraken_black", "Kraken Black Spiced", "Rum", "kraken_black_image");
+INSERT INTO items VALUES("jim_beam", "Jim Beam White Label", "bourbon_whiskey", "jim_beam_image");
+INSERT INTO items VALUES("jack_daniels", "Jack Daniel's Tennessee", "bourbon_whiskey", "jack_daniels_image");
+INSERT INTO items VALUES("allan_scott_SB", "Allan Scott Sauvignon Blanc", "White_Wine", "allan_scott_SB_image");
+INSERT INTO items VALUES("babydoll_SB", "BabyDoll Sauvignon Blanc", "White_Wine", "babydoll_SB_image");
+INSERT INTO items VALUES("dashwood_PN", "Dashwood Pinot Noir", "Red_Wine", "dashwood_PN_image");
+INSERT INTO items VALUES("bombay_sapphire", "Bombay Sapphire", "Gin", "bombay_sapphire_image");
+INSERT INTO items VALUES("el_jimador_blanco", "El Jimador Blanco", "Tequila", "el_jimador_blanco_image");
+INSERT INTO items VALUES("smirnoff_red_no21", "Smirnoff Red No.21", "Vodka", "smirnoff_red_no21_image");
+INSERT INTO items VALUES("finlandia", "Finlandia", "Vodka", "finlandia_image");
+INSERT INTO items VALUES("espolon_blanco", "Espolon Blanco", "Tequila", "espolon_blanco_image");

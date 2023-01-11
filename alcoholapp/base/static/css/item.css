@@ -1,0 +1,112 @@
+/*item.html styling*/
+
+body {
+	background-color: #F89572;
+	font-family: Trebuchet MS;
+}
+
+
+body header {
+	display: flex;
+	margin-top: 30px;
+}
+
+body header .home-outer {
+	margin-left: 20px;
+}
+
+body header .home-outer a {
+	text-decoration: none;
+	font-size: 30px;
+}
+
+body header .home-outer a .home-inner {
+	border-style: solid;
+	border-radius: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+body header .home-outer a .home-inner:hover {
+	color: red;
+	border-color: red;
+}
+
+/*if css does not load remove this?*/
+body header .page-title {
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 30px;
+}
+
+
+
+body table {
+	background-color: #FFFFFF;
+	font-size: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+	border-collapse: collapse;
+}
+
+
+
+
+
+body tr td {
+	
+	border-bottom: 1pt solid #000000;
+	border-top: 1pt solid #000000;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	height: min(70px);
+}
+
+
+body table tr td a {
+	text-decoration: none;
+}
+
+
+
+body table th {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #DAE0E6;
+	position: sticky;
+	top: 0;
+	z-index: 1;
+}
+
+
+
+
+/*table fade in animations*/
+tr:not(:first-child) {
+	opacity: 5;
+	animation-name: fadeIn;
+	animation-duration: 5s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+
+
+
+body .table-margins table tr:hover {
+	background-color: yellow;
+}
+
+
+@keyframes fadeIn {
+	from {opacity: 0;}
+	to {
+		opacity: 1;
+		border-bottom: 1px solid #060606;
+	}
+}
+

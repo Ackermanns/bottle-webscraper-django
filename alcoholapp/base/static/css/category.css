@@ -1,0 +1,80 @@
+/*category.html styling*/
+
+body {
+	background-color: #F89572;
+	font-family: Trebuchet MS;
+}
+
+body header {
+	display: flex;
+	margin-top: 30px;
+}
+
+body header .home-outer {
+	margin-top: 30px;
+	margin-left: 20px;
+}
+
+body header .home-outer a {
+	text-decoration: none;
+	font-size: 30px;
+}
+
+body header .home-outer a .home-inner {
+	border-style: solid;
+	border-radius: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+body header .home-outer a .home-inner:hover {
+	color: red;
+	border-color: red;
+}
+
+
+body header .page-title {
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 30px;
+}
+
+
+body table {
+	background-color: #FFFFFF;
+	font-size: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+	border-collapse: collapse;
+}
+
+body table tr td {
+	width:500px;
+	border-bottom: 1pt solid #000000;
+	border-top: 1pt solid #000000;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+body table tr td a {
+	text-decoration: none;
+}
+
+body table tr td a .category-inner {
+	border-style: solid;
+	border-radius: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+body table tr td a .category-inner:hover {
+	color: red;
+	border-color: red;
+}

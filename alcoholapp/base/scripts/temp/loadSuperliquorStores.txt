@@ -1,0 +1,13 @@
+INSERT INTO stores VALUES(1001, 'Christchurch','Shop 72, Barrington Mall, 256 Barrington Street, Addington',033375055,'barrington@superliquor.co.nz','https://www.superliquor.co.nz/super-liquor-barrington');
+INSERT INTO stores VALUES(1002, 'Christchurch','808 Main North Road, Belfast',033238926,'belfast@superliquor.co.nz','https://www.superliquor.co.nz/super-liquor-belfast');
+INSERT INTO stores VALUES(1003, 'Christchurch','15 Beresford Street, New Brighton',033889186,'brighton@superliquor.co.nz','https://www.superliquor.co.nz/super-liquor-brighton');
+INSERT INTO stores VALUES(1004, 'Christchurch','Unit 3, 501 Wairakei Road, Burnside',033590556,'burnside@superliquor.co.nz','https://www.superliquor.co.nz/super-liquor-burnside');
+INSERT INTO stores VALUES(1005, 'Christchurch','300 Colombo Street, Shop 6, , Sydenham, Christchurch, 8023',033375599,'colombostreet@superliquor.co.nz','https://www.superliquor.co.nz/super-liquor-colombo-st-sydenham');
+INSERT INTO stores VALUES(1006, 'Christchurch','1067A Colombo Street, St Albans, Christchurch, 8014',033794564,'edgeware@superliquor.co.nz','https://www.superliquor.co.nz/super-liquor-edgeware');
+INSERT INTO stores VALUES(1007, 'Christchurch','1 Normans Road, Strowan',033551170,'elmwood@superliquor.co.nz','https://www.superliquor.co.nz/super-liquor-elmwood');
+INSERT INTO stores VALUES(1008, 'Christchurch','344 Halswell Road, Halswell',033224205,'halswell@superliquor.co.nz','https://www.superliquor.co.nz/super-liquor-halswell');
+INSERT INTO stores VALUES(1009, 'Christchurch','8 Tower Street, Hornby',033442044,'hornby@superliquor.co.nz','https://www.superliquor.co.nz/super-liquor-hornby');
+INSERT INTO stores VALUES(1010, 'Christchurch','213 Waimairi Road, Ilam',033585487,'ilam@superliquor.co.nz','https://www.superliquor.co.nz/super-liquor-ilam');
+INSERT INTO stores VALUES(1011, 'Christchurch','68 High Street, Leeston',033244333,'leeston@superliquor.co.nz','https://www.superliquor.co.nz/super-liquor-leeston');
+INSERT INTO stores VALUES(1012, 'Christchurch','5C Gerald Street, Lincoln',033257360,'lincoln@superliquor.co.nz','https://www.superliquor.co.nz/super-liquor-lincoln');
+INSERT INTO stores VALUES(1013, 'Christchurch','17c Main North Road, Papanui',033526416,'papanui@superliquor.co.nz','https://www.superliquor.co.nz/super-liquor-papanui');

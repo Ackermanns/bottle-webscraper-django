@@ -1,0 +1,135 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="{% static 'css/indexstylesheet.css' %}">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="UTF-8">
+		<title>GoodTimes</title>
+		
+	</head>
+	<body>
+		<div class="sub-heading">
+			<h2>The one stop spot for all your alcohol product needs in Christchurch New Zealand</h2>
+		</div>
+		<div class="header-container">
+			<div class="header-container-left">
+				<div class="header-container-images">
+					<img src="{% static 'images/brands/logo-superliquor.jpeg' %}" alt="logo-superliquor.jpeg" height="110px" width="auto"/>
+					<img src="{% static 'images/brands/logo-liquorland.png' %}" alt="logo-liquorland.png" height="110px" width="auto"/>
+					<img src="{% static 'images/brands/logo-bottleo.png' %}" alt="logo-bottleo.png" height="110px" width="auto"/>
+					<img src="{% static 'images/brands/logo-thirstyliquor.jpg' %}" alt="logo-thirstyliquor.jpg" height="110px" width="auto"/>
+					<img src="{% static 'images/brands/logo-liquorking.jpg' %}" alt="logo-liquorking.jpg" height="110px" width="auto"/>
+				</div>
+				<div class="header-title">
+					<h1>Alcoholic product bottle finder</h1>
+					<p>The one stop spot for all your alcohol product <br>needs in Christchurch New Zealand</p>
+				</div>
+					<div class="shop-now-outer">
+						<a href="#scrolltag">
+							<div class="shop-now-inner">
+								<!--work to do here-->
+								<p>Search now!</p>
+							</div>
+						</a>
+					</div>
+			</div>
+			<div class="header-container-right">
+				<img src="{% static 'images/drinks.jpeg' %}" alt="drinks.jpeg" height="448px" width="auto">
+			</div>
+		</div>
+		<!--POPULAR SECTION-->
+		<div class="most-popular-container">
+			<div class="most-popular-heading">
+				<h1>Most Popular</h1>
+			</div>
+			<div class="products-list">
+				<a href="bourbon_whiskey/jack_daniels">
+					<div class="jack-daniels-popular">
+						<img src="{% static 'images/products/jack_daniels_image.jpeg' %}" alt="jack_daniels_image.jpeg" height="300px" width="auto"/>
+						<p>Jack daniels</p>
+						<p>Whiskey</p>
+					</div>
+				</a>
+				<a href="Liqueurs/jagermeister">
+					<div class="jagermeister-popular">
+						<img src="{% static 'images/products/jagermeister_image.jpeg' %}" alt="jagermeister_image.jpeg" height="300px" width="auto"/>
+						<p>Jagermeister</p>
+						<p>Liqueur</p>
+					</div>
+				</a>
+				<a href="Gin/bombay_sapphire">
+					<div class="bombay-popular">
+						<img src="{% static 'images/products/bombay_sapphire_image.jpeg' %}" alt="bombay_sapphire_image.jpeg" height="300px" width="auto"/>
+						<p>Bombay Sapphire</p>
+						<p>Gin</p>
+					</div>
+				</a>
+				<a href="Rum/kraken_black">
+					<div class="kraken-popular">
+						<img src="{% static 'images/products/kraken_black_image.jpeg' %}" alt="kraken_black_image.jpeg" height="300px" width="auto"/>
+						<p>Kraken Black</p>
+						<p>Rum</p>
+					</div>
+				</a>
+			</div>
+		</div>
+		<!--CATEGORY SELECTION-->
+		<div class="category-container">
+			<div id="scrolltag">
+				<div class="category-header">
+					<h1>Categories</h1>
+				</div>
+				<div class="categories">
+					<div class="whiskey-container">
+						<a href="bourbon_whiskey"><img src="{% static 'images/categories/whisky_burbon.jpg' %}" alt="whisky_burbon.jpg" width="400px" height="auto"/></a>
+					</div>
+					<div class="gin-container">
+						<a href="Gin"><img src="{% static 'images/categories/gin.jpg' %}" alt="gin.jpg" width="400px" height="auto"></a>
+					</div>
+					<div class="liqueurs-container">
+						<a href="Liqueurs"><img src="{% static 'images/categories/liqueurs.jpg' %}" alt="liqueurs.jpg" width="400px" height="auto"></a>
+					</div>
+					<div class="rum-container">
+						<a href="Rum"><img src="{% static 'images/categories/rum.jpg' %}" alt="rum.jpg" width="400px" height="auto"></a>
+					</div>
+					<div class="tequila-container">
+						<a href="Tequila"><img src="{% static 'images/categories/tequila.jpg' %}" alt="tequila.jpg" width="400px" height="auto"></a>
+					</div>
+					<div class="vodka-container">
+						<a href="Vodka"><img src="{% static 'images/categories/vodka.jpg' %}" alt="vodka.jpg" width="400px" height="auto"></a>
+					</div>
+					<div class="white-wine-container">
+						<a href="White_Wine"><img src="{% static 'images/categories/white_wine.jpg' %}" alt="white_wine.jpg" width="400px" height="auto"></a>
+					</div>
+					<div class="red-wine-container">
+						<a href="Red_Wine"><img src="{% static 'images/categories/red_wine.jpg' %}" alt="red_wine.jpg" width="400px" height="auto"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="about-me">
+			<div class="about-me-header">
+				<h1>About me</h1>
+			</div>
+			<div class="video">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/XHDfG7GWGTE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+			<div class="description">
+				<p>
+					This entire webproject is a assignment for BCDE214 at ARA institute of Canterbury (Polytech). This is for my studies in software engineering bachelors where I pretend to be employed by a client that asked me to make this using a design thinking development process.
+					This project tests my full-stack development where I experiment with different technologies, ideas and media.<br>
+					<b>Please Note:</b><br>
+					The goal of this project is to extract alcohol product data published from owner shops, store and sort them by cheapist price and present them to the user as information that they can do what they want with.
+					<br>
+					I am not in any way associated with the alcohol shops businesses or am sponsored. Web scraping technology is not illegal and all data that is collected and published here is information published from the owners stores.<br>
+				</p>
+			</div>
+		</div>
+		
+	</body>
+	<footer>
+		<p>Designed by Simon Ackermann</p>
+		<p>© Copyright GoodTimes 2021</p>
+	</footer>
+</html>
